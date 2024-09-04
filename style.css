@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.output{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+#input-text{
+    height: 80vh;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+#output-text{
+    height: 80vh;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+#replace-button{
+    margin: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#copy-button{
+    margin: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
